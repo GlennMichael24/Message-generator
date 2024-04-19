@@ -13,5 +13,17 @@ let personalWisdom = []
 for(let prop in collectiveAdvice) {
     let optionIndex = getRandomNumber(collectiveAdvice[prop].length)
 
-    
+    switch(prop) {
+        case 'colorInfo':
+            personalWisdom.push(`Your color now is ${collectiveAdvice[prop][optionIndex]}.`)
+            break
+        case 'fortuneOutput':
+            personalWisdom.push(`You are having: ${collectiveAdvice[prop][optionIndex]}.`)
+            break
+        case 'advice':
+            personalWisdom.push(`You should ${collectiveAdvice[prop][optionIndex]}!`)
+            break
+        default:
+            personalWisdom.push('There is not enough info.')            
+    }
 }
