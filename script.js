@@ -8,3 +8,10 @@ const collectiveAdvice = {
     advice: ['trust no one', 'keep an eye on the sky', 'go out and meet someone', 'today the world is yours']
 }
 
+let personalWisdom = []
+
+for(let prop in collectiveAdvice) {
+    let optionIndex = getRandomNumber(collectiveAdvice[prop].length)
+
+    
+}
