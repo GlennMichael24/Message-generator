@@ -5,7 +5,7 @@ const getRandomNumber = num => {
 const collectiveAdvice = {
     colorInfo: ['blue', 'red', 'white', 'black', 'green', 'yellow'],
     fortuneOutput: ['terrible luck', 'bad luck', 'ok luck', 'good luck', 'great luck'],
-    advice: ['trust no one', 'keep an eye on the sky', 'go out and meet someone', 'today the world is yours']
+    advice: ['trust no one', 'keep an eye on the sky', 'go out and meet someone', 'remember: today the world is yours']
 }
 
 let personalWisdom = []
