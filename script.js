@@ -27,3 +27,10 @@ for(let prop in collectiveAdvice) {
             personalWisdom.push('There is not enough info.')            
     }
 }
+
+const formatWisdom = wisdom => {
+    const formatted = personalWisdom.join('\n')
+    console.log(formatted)
+}
+
+formatWisdom(personalWisdom);
